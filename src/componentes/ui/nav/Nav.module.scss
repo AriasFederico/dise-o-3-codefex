@@ -1,0 +1,45 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.nav {
+    display: none;    
+
+    @include tablet-desktop(){
+        display: flex;
+    }
+    
+    &__mobile {
+        display: flex;
+        background-color: $secundario;
+        position: absolute;
+        top: 4.8rem;
+        left: 0;
+        width: 100%;
+        padding: 2rem 1rem;
+
+        @include tablet-desktop(){
+        display: none;
+    }
+
+    }
+
+    .ol {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+        @include tablet-desktop(){
+            flex-direction: row;
+        }
+    }
+
+    .a {
+        color: $negro;
+
+        &:hover {
+            color: $primario;
+        }
+    }
+}
