@@ -3,11 +3,13 @@
 
 .primario,
 .secundario {
+  align-self: center;
     padding: 0.7rem;
     font-size: 1rem;
     cursor: pointer;
     min-width: 10rem;
     text-align: center;
+    border-radius: $border-radius;
 }
 
   .a {
@@ -21,7 +23,7 @@
     color: $blanco;
 
     &:hover {
-      background-color: red;
+      background-color: $primario-hover;
     }
 
   }

@@ -1,11 +1,11 @@
-import estilos from  './Header.module.scss';
-import { useState, useEffect } from 'react';
-import { Nav,Boton } from '../ui';
+import { useEffect, useState } from 'react';
 import { global } from '../../data/global.js';
+import { Boton, Nav } from '../ui';
+import estilos from './Header.module.scss';
 
 export const Header = () => {
-	const {header, logo} = global;
-	const {navLinks} = header;
+	const { header, logo } = global;
+	const { navLinks } = header;
 	const [menuActive, setMenuActive] = useState(false);
 
 	useEffect(() => {
@@ -38,7 +38,9 @@ export const Header = () => {
 				>
 					<ion-icon name={'menu-outline'}></ion-icon>
 				</button>
-				<Boton text={'Visit us'} />
+				<div className={estilos.botonHeader}>
+					<Boton text={'Visit us'} />
+				</div>
 			</div>
 		</header>
 	);

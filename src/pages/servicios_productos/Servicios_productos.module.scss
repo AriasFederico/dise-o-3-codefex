@@ -1,0 +1,31 @@
+@use '../../styles/variables' as *;
+
+.servicios_productos {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    
+    .contenedor {
+        width: 100%;
+        max-width: $max-heigt-contenedores;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        &__titulo {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: $negro;
+            padding: .5rem 0;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+        }
+
+        &__items {
+            display: flex;
+            justify-content: center;
+            // align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+    }
+}

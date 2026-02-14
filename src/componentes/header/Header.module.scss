@@ -45,5 +45,13 @@
             display: none;            
         }
     }
+
+    .botonHeader {
+        display: none;
+
+        @include tablet-desktop(){
+            display: flex;
+        }
+    }
     
 }

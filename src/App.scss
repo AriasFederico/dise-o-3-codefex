@@ -1,0 +1,16 @@
+@use './styles/mixins' as *;
+.app {
+
+
+    &__contenedor {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+        @include tablet-desktop(){
+            gap: 10rem;
+
+        }
+        
+    }
+}

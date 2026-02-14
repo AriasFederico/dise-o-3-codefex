@@ -1,0 +1,57 @@
+@use '../../styles/variables' as * ;
+@use '../../styles/mixins' as * ;
+
+.acerca {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+
+    .contenedor {
+        width: 100%;
+        max-width: $max-heigt-contenedores;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+
+
+        .titulo {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: $negro;
+            padding: .5rem 0;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+        }
+
+        .contenido {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+
+            @include tablet-desktop(){
+                flex-direction: row;
+            }
+
+    
+            &__texto {
+                flex: 2;
+                line-height: 1.7;
+                color: $negro;
+            }
+
+            &__imagen {
+                width:100%;
+                object-fit: cover;
+                object-position: center;
+                height: 25rem;
+                flex:1;
+
+
+                @include tablet-desktop(){
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
