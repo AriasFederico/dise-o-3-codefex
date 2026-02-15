@@ -15,7 +15,9 @@ export const Footer = ({ data, logo }) => {
 						<LinkSocial icono={icono} nombre={nombre} url={url} key={nombre} />
 					))}
 				</div>
-				<a href={'https://codefex.site/'}>Web creada por Codefex</a>
+				<a href={'https://codefex.site/'} className={estilos.credito}>
+					Web creada por Codefex
+				</a>
 			</div>
 		</footer>
 	);

@@ -8,10 +8,18 @@
     ion-icon {
         width: 1.5rem;
         height: 1.5rem;
-        color: $blanco;
+        color: $primario;
     }
 
     .link {
+        color: $blanco;
+
+        &:hover {
+            color: $primario;
+        }
+    }
+
+    .credito {
         color: $blanco;
     }
     
