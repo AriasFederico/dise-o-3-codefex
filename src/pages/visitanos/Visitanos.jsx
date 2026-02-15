@@ -3,7 +3,7 @@ import estilos from './Visitanos.module.scss';
 
 export const Visitanos = ({ data }) => {
 	return (
-		<div className={estilos.visitanos}>
+		<div className={estilos.visitanos} id='visitanos'>
 			<div className={estilos.contenedor}>
 				{/* <Titulo_Seccion texto={data.titulo} /> */}
 				<div className={estilos.contenido}>

@@ -4,7 +4,7 @@ import estilos from './Servicios_productos.module.scss';
 
 export const Servicios_productos = ({ data, items }) => {
 	return (
-		<div className={estilos.servicios_productos}>
+		<div className={estilos.servicios_productos} id='servicios'>
 			<div className={estilos.contenedor}>
 				<Titulo_Seccion texto={data.titulo} />
 
