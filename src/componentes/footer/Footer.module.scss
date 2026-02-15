@@ -39,7 +39,17 @@
         }
     }
 
-    .credito {
-        color: $blanco;
+    .creditos {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+
+        @include tablet-desktop(){
+            flex-direction: row;
+        }
+
+        a {
+            color: $blanco;
+        }
     }
 }

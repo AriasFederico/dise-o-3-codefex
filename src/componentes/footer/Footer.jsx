@@ -15,9 +15,12 @@ export const Footer = ({ data, logo }) => {
 						<LinkSocial icono={icono} nombre={nombre} url={url} key={nombre} />
 					))}
 				</div>
-				<a href={'https://codefex.site/'} className={estilos.credito}>
-					Web creada por Codefex
-				</a>
+				<div className={estilos.creditos}>
+					<a href={'https://codefex.site/'} className={estilos.credito}>
+						Web creada por Codefex
+					</a>
+					<a href='https://www.freepik.es/app'>Imágenes por Freepik</a>
+				</div>
 			</div>
 		</footer>
 	);

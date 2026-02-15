@@ -26,6 +26,7 @@ export const global = {
 		titulo: 'Nails that Shine bright',
 		texto:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+		numeroContacto: '',
 	},
 
 	titulo_servicios_productos: {
