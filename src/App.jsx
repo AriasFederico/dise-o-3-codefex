@@ -1,11 +1,25 @@
 import './App.scss';
-import { Header } from './componentes/';
+import { Footer, Header } from './componentes/';
 import { global } from './data/global';
 import { productos_servicios } from './data/productos_servicios';
-import { Acerca, Principal, Servicios_productos } from './pages';
+import {
+	Acerca,
+	Galeria,
+	Principal,
+	Servicios_productos,
+	Visitanos,
+} from './pages';
 
 function App() {
-	const { principal, titulo_servicios_productos, acerca } = global;
+	const {
+		logo,
+		principal,
+		titulo_servicios_productos,
+		acerca,
+		galeria,
+		visitanos,
+		footer,
+	} = global;
 	return (
 		<div className='app'>
 			<Header />
@@ -16,10 +30,11 @@ function App() {
 					items={productos_servicios}
 				/>
 				<Acerca data={acerca} />
-				asdasd
+				<Visitanos data={visitanos} />
+				<Galeria data={galeria} />
+				<Footer data={footer} logo={logo} />
 			</div>
 		</div>
 	);
 }
-
 export default App;

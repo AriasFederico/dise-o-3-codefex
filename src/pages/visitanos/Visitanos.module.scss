@@ -1,0 +1,32 @@
+@use '../../styles/variables' as * ;
+@use '../../styles/mixins' as * ;
+
+.visitanos {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+
+    @include tablet-desktop(){
+        padding: 0;
+    }
+    
+    .contenedor {
+        width: 100%;
+        max-width: $max-heigt-contenedores;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        @include tablet-desktop(){
+            flex-direction: row;
+        }
+    }
+}

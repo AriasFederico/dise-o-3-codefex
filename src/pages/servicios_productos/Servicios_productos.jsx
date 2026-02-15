@@ -1,11 +1,12 @@
 import { Items } from '../../componentes';
+import { Titulo_Seccion } from '../../componentes/ui/';
 import estilos from './Servicios_productos.module.scss';
 
 export const Servicios_productos = ({ data, items }) => {
 	return (
 		<div className={estilos.servicios_productos}>
 			<div className={estilos.contenedor}>
-				<h2 className={estilos.contenedor__titulo}>{data.titulo}</h2>
+				<Titulo_Seccion texto={data.titulo} />
 
 				<div className={estilos.contenedor__items}>
 					{items?.map(({ imagen, nombre, texto }) => (

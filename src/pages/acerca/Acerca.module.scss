@@ -6,22 +6,16 @@
     justify-content: center;
     padding: 0 1rem;
 
+    @include tablet-desktop(){
+        padding: 0;
+    }
+
     .contenedor {
         width: 100%;
         max-width: $max-heigt-contenedores;
         display: flex;
         flex-direction: column;
-        gap: 3rem;
-
-
-
-        .titulo {
-            font-size: 2.5rem;
-            font-weight: 600;
-            color: $negro;
-            padding: .5rem 0;
-            border-bottom: 1px solid rgba(128, 128, 128, 0.384);
-        }
+        gap: 5rem;
 
         .contenido {
             display: flex;

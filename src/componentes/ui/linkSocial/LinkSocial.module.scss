@@ -1,0 +1,18 @@
+@use '../../../styles/variables' as *;
+
+.linkSocial {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    ion-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        color: $blanco;
+    }
+
+    .link {
+        color: $blanco;
+    }
+    
+}

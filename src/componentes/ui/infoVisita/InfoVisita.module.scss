@@ -1,0 +1,27 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.infoVisita {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
+    color:$negro;
+
+    ion-icon {
+        width: 2rem;
+        height: 2rem;
+        color: $primario;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+    }
+
+    p {
+        width: 15rem;
+    }
+}

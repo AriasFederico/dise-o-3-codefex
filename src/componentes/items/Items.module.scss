@@ -6,13 +6,12 @@
     position: relative;
     border-radius: $border-radius;
     overflow: hidden;
-    min-height: 25rem;
-    // max-height: 20rem;
+    min-height: 20rem;
     transition: box-shadow .3s ease;
     
     @include tablet-desktop(){
         max-width: 23rem;
-        min-height: 25rem;
+        max-height: 25rem;
     }
 
     &:hover {

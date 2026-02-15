@@ -1,9 +1,10 @@
+import { Titulo_Seccion } from '../../componentes/ui';
 import estilos from './Acerca.module.scss';
 export const Acerca = ({ data }) => {
 	return (
 		<div className={estilos.acerca}>
 			<div className={estilos.contenedor}>
-				<h2 className={estilos.titulo}>{data.titulo}</h2>
+				<Titulo_Seccion texto={data.titulo} />
 				<div className={estilos.contenido}>
 					<img
 						src={data.imagen}
