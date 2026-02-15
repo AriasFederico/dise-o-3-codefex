@@ -2,7 +2,7 @@ import { Titulo_Seccion } from '../../componentes/ui';
 import estilos from './Galeria.module.scss';
 export const Galeria = ({ data }) => {
 	return (
-		<div className={estilos.galeria}>
+		<div className={estilos.galeria} id='galeria'>
 			<div className={estilos.contenedor}>
 				<Titulo_Seccion texto={data.titulo} />
 				<div className={estilos.contenido}>

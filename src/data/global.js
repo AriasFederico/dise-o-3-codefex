@@ -16,9 +16,9 @@ export const global = {
 
 	header: {
 		navLinks: [
-			{ label: 'Home', url: '#principal' },
 			{ label: 'Services', url: '#servicios' },
 			{ label: 'About Us', url: '#acerca' },
+			{ label: 'Galery', url: '#galeria' },
 		],
 	},
 
