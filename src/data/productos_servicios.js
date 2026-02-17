@@ -1,6 +1,6 @@
-import imagen1 from '../assets/imagenesServicios/1.jpg';
-import imagen2 from '../assets/imagenesServicios/2.jpg';
-import imagen3 from '../assets/imagenesServicios/3.jpg';
+import imagen1 from '../assets/imagenesServicios/1.webp';
+import imagen2 from '../assets/imagenesServicios/2.webp';
+import imagen3 from '../assets/imagenesServicios/3.webp';
 
 export const productos_servicios = [
 	{

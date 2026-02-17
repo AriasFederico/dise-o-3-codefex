@@ -1,9 +1,9 @@
-import galeria_1 from '../assets/galeria/1.jpg';
-import galeria_2 from '../assets/galeria/2.jpg';
-import galeria_3 from '../assets/galeria/3.jpg';
-import galeria_4 from '../assets/galeria/4.jpg';
-import galeria_5 from '../assets/galeria/5.jpg';
-import galeria_6 from '../assets/galeria/6.jpg';
+import galeria_1 from '../assets/galeria/1.webp';
+import galeria_2 from '../assets/galeria/2.webp';
+import galeria_3 from '../assets/galeria/3.webp';
+import galeria_4 from '../assets/galeria/4.webp';
+import galeria_5 from '../assets/galeria/5.webp';
+import galeria_6 from '../assets/galeria/6.webp';
 
 import acerca from '../assets/imagenes/about.png';
 
