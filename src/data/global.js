@@ -3,30 +3,30 @@ import galeria_2 from '../assets/galeria/2.webp';
 import galeria_3 from '../assets/galeria/3.webp';
 import galeria_4 from '../assets/galeria/4.webp';
 import galeria_5 from '../assets/galeria/5.webp';
-import galeria_6 from '../assets/galeria/6.webp';
+// import galeria_6 from '../assets/galeria/6.webp';
 
 import acerca from '../assets/imagenes/about.png';
 
 export const global = {
 	logo: {
-		imagen: 'Style & Shape',
-		altText: '',
+		imagen: 'EMENails',
+		altText: 'EMENails',
 		url: '#',
 	},
 
 	header: {
 		navLinks: [
-			{ label: 'Services', url: '#servicios' },
-			{ label: 'About Us', url: '#acerca' },
-			{ label: 'Galery', url: '#galeria' },
+			{ label: 'Servicios', url: '#servicios' },
+			{ label: 'Sobre EMENails', url: '#acerca' },
+			{ label: 'Galería', url: '#galeria' },
 		],
 	},
 
 	principal: {
-		titulo: 'Nails that Shine bright',
+		titulo: 'Estilo y belleza para vos.',
 		texto:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
-		numeroContacto: '',
+			'Descubrí el mejor cuidado para tus manos y pies en EMENails. Especialistas en manicuria, pedicuria y bijouterie con atención personalizada y productos de primera calidad, pensados solo para vos.',
+		numeroContacto: '542214547130',
 	},
 
 	titulo_servicios_productos: {
@@ -48,7 +48,7 @@ export const global = {
 			galeria_3,
 			galeria_4,
 			galeria_5,
-			galeria_6,
+			// galeria_6,
 		],
 	},
 

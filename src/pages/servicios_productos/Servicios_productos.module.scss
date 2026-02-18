@@ -4,18 +4,18 @@
 .servicios_productos {
     display: flex;
     justify-content: center;
-    padding: 0 1rem;
-
-    @include tablet-desktop(){
-        padding: 0;
-    }
-    
+        
     .contenedor {
         width: 100%;
         max-width: $max-heigt-contenedores;
         display: flex;
         flex-direction: column;
         gap: 3rem;
+        
+        padding: 0 1rem;
+        @include for-deleteSpacings(){
+            padding: 0;
+        }
 
         &__items {
             display: flex;

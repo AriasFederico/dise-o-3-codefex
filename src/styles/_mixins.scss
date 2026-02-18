@@ -1,5 +1,14 @@
+@use '../styles/variables' as *;
+
 @mixin tablet-desktop() {
 	@media screen and (min-width: 800px) {
 		@content;
 	}
 }
+
+@mixin for-deleteSpacings(){
+	@media screen and (min-width: $max-heigt-contenedores) {
+		@content
+	}
+}
+

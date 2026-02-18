@@ -39,7 +39,7 @@ export const Header = () => {
 					<ion-icon name={'menu-outline'}></ion-icon>
 				</button>
 				<div className={estilos.botonHeader}>
-					<Boton text={'Visit us'} url={'#acerca'} />
+					<Boton text={'Visitanos'} url={'#acerca'} />
 				</div>
 			</div>
 		</header>

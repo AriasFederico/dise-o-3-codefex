@@ -10,10 +10,7 @@ export const Principal = ({ data }) => {
 			<div className={estilos.contenedor}>
 				<h1 className={estilos.titulo}>{data.titulo}</h1>
 				<p className={estilos.texto}>{data.texto}</p>
-				<Boton
-					text={'Contact'}
-					onClick={console.log('agrega el numero en el global')}
-				/>
+				<Boton text={'Contacto'} onClick={handleWhatsApp} />
 			</div>
 		</div>
 	);
