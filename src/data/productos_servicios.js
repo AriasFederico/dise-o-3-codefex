@@ -4,27 +4,24 @@ import imagen3 from '../assets/imagenesServicios/3.webp';
 
 export const productos_servicios = [
 	{
+		id: 1,
 		imagen: imagen1,
-		nombre: 'Peluquería',
+		nombre: 'Service',
 		texto:
 			'Transformamos tu look con cortes precisos, alisados de larga duración, nutritivos tratamientos de botox y tinturas que realzan tu color natural..',
 	},
 	{
+		id: 2,
 		imagen: imagen2,
-		nombre: 'Manicuría',
+		nombre: 'Service',
 		texto:
-			'Desde esmaltado tradicional y semipermanente, hasta sofisticadas técnicas como soft-gel (básico, simple y completo) y kapping (básico, con decoraciones simples o completas). Realzá la belleza de tus manos con diseños impecables y acabados duraderos..',
+			'Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis facilisi ac, donec massa praesent vulputate integer semper id a mollis, magnis ligula convallis interdum laoreet pulvinar fermentum bibendum curae.',
 	},
 	{
+		id: 3,
 		imagen: imagen3,
-		nombre: 'Pedicuría',
+		nombre: 'Service',
 		texto:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-	},
-	{
-		imagen: imagen2,
-		nombre: 'Bijouterie',
-		texto:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'Lorem ipsum dolor sit amet consectetur adipiscing elit lobortis facilisi ac, donec massa praesent vulputate integer semper id a mollis, magnis ligula convallis interdum laoreet pulvinar fermentum bibendum curae.',
 	},
 ];

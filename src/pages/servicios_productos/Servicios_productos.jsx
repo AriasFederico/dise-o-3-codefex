@@ -9,8 +9,14 @@ export const Servicios_productos = ({ data, items }) => {
 				<Titulo_Seccion texto={data.titulo} />
 
 				<div className={estilos.contenedor__items}>
-					{items?.map(({ imagen, nombre, texto }) => (
-						<Items key={nombre} imagen={imagen} nombre={nombre} texto={texto} />
+					{items?.map(({ imagen, nombre, texto, id }) => (
+						<Items
+							key={nombre}
+							imagen={imagen}
+							nombre={nombre}
+							texto={texto}
+							id={id}
+						/>
 					))}
 				</div>
 			</div>

@@ -22,7 +22,7 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.253);
+        background-color: rgba(94, 94, 94, 0.253);
     }
 
     .contenedor {
@@ -42,6 +42,10 @@
 
     .texto {
         line-height: 1.7;
+        @include tablet-desktop(){
+            max-width: 70%;
+            margin: 0 auto;
+        }
     }
 
 }
