@@ -10,6 +10,11 @@
     padding:1rem 1.5rem;
     border-bottom: 1px solid $suave-gris;
     z-index: 5000;
+    padding: 1rem;
+    
+    @include tablet-desktop(){
+        // padding: 0;
+    }
 
     .contenedor {
         max-width: 1152px;

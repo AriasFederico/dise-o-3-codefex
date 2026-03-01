@@ -2,17 +2,23 @@
 @use '../../../styles/mixins' as *;
 
 .nav {
-    display: none;    
+    // display: none;    
+    max-height: 0;
+    overflow: hidden;
 
     @include tablet-desktop(){
         display: flex;
+        overflow: visible;
     }
     
     &__mobile {
         display: flex;
+        max-height: 500px;
+        overflow: hidden;
+        transition: all .2s ease-in;
         background-color: $secundario;
         position: absolute;
-        top: 4.8rem;
+        top: 4.4rem;
         left: 0;
         width: 100%;
         padding: 2rem 1rem;
@@ -37,6 +43,8 @@
 
     .a {
         color: $negro;
+        font-size: $font-size-xs;
+        // font-weight: 600;
 
         &:hover {
             color: $primario;

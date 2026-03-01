@@ -15,8 +15,8 @@
         display: flex;
         flex-direction: column;
         gap: 5rem;
-
         padding: 0 1rem;
+
         @include for-deleteSpacings(){
             padding: 0;
         }
@@ -31,7 +31,6 @@
                 flex-direction: row;
             }
 
-    
             &__texto {
                 flex: 2;
                 line-height: 1.7;
@@ -44,7 +43,7 @@
                 object-position: center;
                 height: 25rem;
                 flex:1;
-
+                border-radius: $border-radius;
 
                 @include tablet-desktop(){
                     width: 50%;

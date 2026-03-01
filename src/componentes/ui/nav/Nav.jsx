@@ -1,3 +1,4 @@
+import { Boton } from '../boton/Boton';
 import estilos from './Nav.module.scss';
 
 export const Nav = ({ navigationLinks, onCloseMenu, menuActive }) => {
@@ -11,6 +12,8 @@ export const Nav = ({ navigationLinks, onCloseMenu, menuActive }) => {
 						</a>
 					</li>
 				))}
+
+				{menuActive && <Boton text={'VISIT US'} url={'#acerca'} />}
 			</ol>
 		</nav>
 	);

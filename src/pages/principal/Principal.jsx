@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { Boton } from '../../componentes/ui';
 import estilos from './Principal.module.scss';
 export const Principal = ({ data }) => {
@@ -7,11 +8,16 @@ export const Principal = ({ data }) => {
 
 	return (
 		<div className={estilos.principal} id='principal'>
-			<div className={estilos.contenedor}>
+			<motion.div
+				className={estilos.contenedor}
+				initial={{ opacity: 0 }}
+				whileInView={{ opacity: 1 }}
+				transition={{ duration: 1 }}
+			>
 				<h1 className={estilos.titulo}>{data.titulo}</h1>
 				<p className={estilos.texto}>{data.texto}</p>
-				<Boton text={'Contacto'} onClick={handleWhatsApp} />
-			</div>
+				<Boton text={'CONTACT US'} onClick={handleWhatsApp} />
+			</motion.div>
 		</div>
 	);
 };
